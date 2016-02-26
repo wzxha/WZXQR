@@ -13,12 +13,14 @@
 <div>
 </div>
 
-####目录(list)
+##目录(list)
 - [使用时(In use)](#效果)
 - [怎么使用(How use)](#怎么使用)
 - [自定义(Custom)](#自定义)
 
-####<a id="效果"></a>效果(Effect)
+---
+
+##<a id="效果"></a>效果(Effect)
 使用时(In use)
 <div>
 </div>
@@ -28,7 +30,7 @@
 </div>
 ![image](https://github.com/Wzxhaha/WZXQRcode/raw/master/read.PNG)
 ---
-####<a id="怎么使用"></a>怎么使用(How use)
+##<a id="怎么使用"></a>怎么使用(How use)
 - 以`WZXQRViewController`为父类创建一个VC ()
 - `- (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection`方法中找到()
 ```
@@ -69,6 +71,6 @@
 
 ---
 
-####<a id="自定义"></a>自定义(Custom)
+##<a id="自定义"></a>自定义(Custom)
 - ######自定义颜色
 在`WZXQRViewController.m`中有三个宏定义`LineColor`四个角的颜色、`LineLength`四个角的长度、`LineWidth`四个角的宽度。
