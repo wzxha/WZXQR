@@ -25,6 +25,8 @@
 <div>
 </div>
 ![image](https://github.com/Wzxhaha/WZXQRcode/raw/master/use.PNG)
+<div>
+<div/>
 扫描结果(Scanning results)
 <div>
 </div>
@@ -72,5 +74,5 @@
 ---
 
 ##<a id="自定义"></a>自定义(Custom)
-- ######自定义颜色
+- 自定义颜色
 在`WZXQRViewController.m`中有三个宏定义`LineColor`四个角的颜色、`LineLength`四个角的长度、`LineWidth`四个角的宽度。
