@@ -36,7 +36,7 @@
 ![image](https://github.com/Wzxhaha/WZXQRcode/raw/master/read.PNG)
 ---
 ##<a id="怎么使用"></a>怎么使用(How use)
-- 以`WZXQRViewController`为父类创建一个VC (Create a ViewController what super in `WZXQRViewController`)
+- 以`WZXQRViewController`为父类创建一个VC (With ` WZXQRViewController ` create a ViewController for the parent class)
 - `- (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection`方法中找到(Found in this method, the following methods)
 ```
 [[WZXQRJudge Judge]judgeQRWithAVMetadataMachineReadableCodeObject:metadataObj andSuccess:^{
