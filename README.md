@@ -1,12 +1,16 @@
 # WZXQRcode
- * 此Demo为二维码Demo(注意只能真机调试)
+ ######二维码，封装良好，使用简单(注意只能真机调试)
+ <div>
+ </div>
+ ######The two-dimensional code, good packaging, simple to use (only device debugging)
+ ---
 <div>
 </div>
- * 此Demo基于[QRCodeReader](https://github.com/WuKongCoo1/QRCodeReader) 修改！
+ * 基于[QRCodeReader](https://github.com/WuKongCoo1/QRCodeReader) 修改
 <div>
 </div>
-![image](https://github.com/Wzxhaha/WZXQRcode/raw/master/IMG_7774.PNG)
+![image](https://github.com/Wzxhaha/WZXQRcode/raw/master/use.PNG)
 <div>
 </div>
-![image](https://github.com/Wzxhaha/WZXQRcode/raw/master/IMG_7773.PNG)
+![image](https://github.com/Wzxhaha/WZXQRcode/raw/master/read.PNG)
 
