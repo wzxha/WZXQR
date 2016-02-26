@@ -13,6 +13,9 @@
 <div>
 </div>
 
+####目录(list)
+- [使用时(In use)](#使用时(In use))
+
 ####使用时(In use)
 ![image](https://github.com/Wzxhaha/WZXQRcode/raw/master/use.PNG)
 ####扫描结果(Scanning results)
