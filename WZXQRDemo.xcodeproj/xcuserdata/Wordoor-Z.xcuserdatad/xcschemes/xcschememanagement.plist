@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>2-dimensional bar code_wzx.xcscheme</key>
+		<key>WZXQRDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4B7CC8DC1C1FDEF7002013BE</key>
+		<key>4B7434611C7FF274000DCB4C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4B7CC8F51C1FDEF7002013BE</key>
+		<key>4B74347A1C7FF274000DCB4C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4B7CC9001C1FDEF7002013BE</key>
+		<key>4B7434851C7FF274000DCB4C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

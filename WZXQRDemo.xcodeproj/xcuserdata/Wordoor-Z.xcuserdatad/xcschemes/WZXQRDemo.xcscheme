@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B7CC8DC1C1FDEF7002013BE"
-               BuildableName = "2-dimensional bar code_wzx.app"
-               BlueprintName = "2-dimensional bar code_wzx"
-               ReferencedContainer = "container:2-dimensional bar code_wzx.xcodeproj">
+               BlueprintIdentifier = "4B7434611C7FF274000DCB4C"
+               BuildableName = "WZXQRDemo.app"
+               BlueprintName = "WZXQRDemo"
+               ReferencedContainer = "container:WZXQRDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B7CC8F51C1FDEF7002013BE"
-               BuildableName = "2-dimensional bar code_wzxTests.xctest"
-               BlueprintName = "2-dimensional bar code_wzxTests"
-               ReferencedContainer = "container:2-dimensional bar code_wzx.xcodeproj">
+               BlueprintIdentifier = "4B74347A1C7FF274000DCB4C"
+               BuildableName = "WZXQRDemoTests.xctest"
+               BlueprintName = "WZXQRDemoTests"
+               ReferencedContainer = "container:WZXQRDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B7CC9001C1FDEF7002013BE"
-               BuildableName = "2-dimensional bar code_wzxUITests.xctest"
-               BlueprintName = "2-dimensional bar code_wzxUITests"
-               ReferencedContainer = "container:2-dimensional bar code_wzx.xcodeproj">
+               BlueprintIdentifier = "4B7434851C7FF274000DCB4C"
+               BuildableName = "WZXQRDemoUITests.xctest"
+               BlueprintName = "WZXQRDemoUITests"
+               ReferencedContainer = "container:WZXQRDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4B7CC8DC1C1FDEF7002013BE"
-            BuildableName = "2-dimensional bar code_wzx.app"
-            BlueprintName = "2-dimensional bar code_wzx"
-            ReferencedContainer = "container:2-dimensional bar code_wzx.xcodeproj">
+            BlueprintIdentifier = "4B7434611C7FF274000DCB4C"
+            BuildableName = "WZXQRDemo.app"
+            BlueprintName = "WZXQRDemo"
+            ReferencedContainer = "container:WZXQRDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4B7CC8DC1C1FDEF7002013BE"
-            BuildableName = "2-dimensional bar code_wzx.app"
-            BlueprintName = "2-dimensional bar code_wzx"
-            ReferencedContainer = "container:2-dimensional bar code_wzx.xcodeproj">
+            BlueprintIdentifier = "4B7434611C7FF274000DCB4C"
+            BuildableName = "WZXQRDemo.app"
+            BlueprintName = "WZXQRDemo"
+            ReferencedContainer = "container:WZXQRDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4B7CC8DC1C1FDEF7002013BE"
-            BuildableName = "2-dimensional bar code_wzx.app"
-            BlueprintName = "2-dimensional bar code_wzx"
-            ReferencedContainer = "container:2-dimensional bar code_wzx.xcodeproj">
+            BlueprintIdentifier = "4B7434611C7FF274000DCB4C"
+            BuildableName = "WZXQRDemo.app"
+            BlueprintName = "WZXQRDemo"
+            ReferencedContainer = "container:WZXQRDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

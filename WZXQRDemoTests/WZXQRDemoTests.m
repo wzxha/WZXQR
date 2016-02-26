@@ -1,18 +1,18 @@
 //
-//  __dimensional_bar_code_wzxTests.m
-//  2-dimensional bar code_wzxTests
+//  WZXQRDemoTests.m
+//  WZXQRDemoTests
 //
-//  Created by wordoor－z on 15/12/15.
-//  Copyright © 2015年 wzx. All rights reserved.
+//  Created by wordoor－z on 16/2/26.
+//  Copyright © 2016年 wzx. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface __dimensional_bar_code_wzxTests : XCTestCase
+@interface WZXQRDemoTests : XCTestCase
 
 @end
 
-@implementation __dimensional_bar_code_wzxTests
+@implementation WZXQRDemoTests
 
 - (void)setUp {
     [super setUp];

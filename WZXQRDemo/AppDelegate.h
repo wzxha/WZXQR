@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  2-dimensional bar code_wzx
+//  WZXQRDemo
 //
-//  Created by wordoor－z on 15/12/15.
-//  Copyright © 2015年 wzx. All rights reserved.
+//  Created by wordoor－z on 16/2/26.
+//  Copyright © 2016年 wzx. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

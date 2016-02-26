@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:2-dimensional bar code_wzx.xcodeproj">
+      location = "self:WZXQRDemo.xcodeproj">
    </FileRef>
 </Workspace>
