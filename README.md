@@ -9,12 +9,15 @@
  
 <div>
 </div>
- * 基于[QRCodeReader](https://github.com/WuKongCoo1/QRCodeReader) 修改
+ 基于[QRCodeReader](https://github.com/WuKongCoo1/QRCodeReader) 修改
+ <div>
+ </div>
+ Based on [QRCodeReader](https://github.com/WuKongCoo1/QRCodeReader)
 <div>
 </div>
 
 ##目录(list)
-- [使用时(In use)](#效果)
+- [效果(Effect)](#效果)
 - [怎么使用(How use)](#怎么使用)
 - [自定义(Custom)](#自定义)
 
@@ -26,15 +29,15 @@
 </div>
 ![image](https://github.com/Wzxhaha/WZXQRcode/raw/master/use.PNG)
 <div>
-<div/>
+</div>
 扫描结果(Scanning results)
 <div>
 </div>
 ![image](https://github.com/Wzxhaha/WZXQRcode/raw/master/read.PNG)
 ---
 ##<a id="怎么使用"></a>怎么使用(How use)
-- 以`WZXQRViewController`为父类创建一个VC ()
-- `- (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection`方法中找到()
+- 以`WZXQRViewController`为父类创建一个VC (Create a ViewController what super in `WZXQRViewController`)
+- `- (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection`方法中找到(Found in this method, the following methods)
 ```
 [[WZXQRJudge Judge]judgeQRWithAVMetadataMachineReadableCodeObject:metadataObj andSuccess:^{
                 
@@ -56,10 +59,10 @@
             }];
 
 ```
-- 在`WZXQRJudge.m`中的`judgeQRWithAVMetadataMachineReadableCodeObject:(AVMetadataMachineReadableCodeObject *)metadataObj andSuccess:(SuccessBlock)success andFailure:(FailureBlock)failure`里面做判断
+- 在`WZXQRJudge.m`中的`judgeQRWithAVMetadataMachineReadableCodeObject:(AVMetadataMachineReadableCodeObject *)metadataObj andSuccess:(SuccessBlock)success andFailure:(FailureBlock)failure`里面做判断(In this method to do judgment)
 比如:
 ```
- //在此做判断
+ //在此做判断,In here to do judgment
     if (metadataObj)
     {
         success();
@@ -69,10 +72,13 @@
         failure();
     }
 ```
-- 运行程序，你就获得了一个二维码扫描VC
+- 运行程序，你就获得了一个二维码扫描VC(To run the program, you will get a qr code scanning of ViewController)
 
 ---
 
 ##<a id="自定义"></a>自定义(Custom)
-- 自定义颜色
+- 自定义颜色(Custom colors)
 在`WZXQRViewController.m`中有三个宏定义`LineColor`四个角的颜色、`LineLength`四个角的长度、`LineWidth`四个角的宽度。
+<div>
+</div>
+In ` WZXQRViewController.m`has three macro definition : ` LineColor ` (The color of the four corners) ` LineLength ` (The length of the four corners)` LineWidth ` (the width of the four corners).
