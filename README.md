@@ -58,3 +58,6 @@
 - 运行程序，你就获得了一个二维码扫描VC
 
 ---
+
+####自定义颜色
+在`WZXQRViewController.m`中有三个宏定义`LineColor`四个角的颜色、`LineLength`四个角的长度、`LineWidth`四个角的宽度。
