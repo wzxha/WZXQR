@@ -7,6 +7,7 @@
 //
 
 #import "WZXQRViewController.h"
+#import <AVFoundation/AVFoundation.h>
 #import "WZXQRJudge.h"
 
 #define LineColor [UIColor redColor]
@@ -75,11 +76,18 @@
     //9.将图层添加到预览view的图层上
     [_backGroundView.layer addSublayer:_videoPreviewLayer];
     //10.设置扫描范围
-    captureMetadataOutput.rectOfInterest = CGRectMake(0.2f, 0.2f, 0.8f, 0.8f);
     //10.1.扫描框
      CGFloat width = _backGroundView.frame.size.width * 0.75;
-    _boxView = [[UIView alloc] initWithFrame:CGRectMake((self.view.frame.size.width - width)/2.0, (self.view.frame.size.height - width)/2.0 - 64, width, width)];
+    
+    _boxView = [[UIView alloc] initWithFrame:CGRectMake((self.view.frame.size.width - width)/2.0, (self.view.frame.size.height - width)/2.0, width, width)];
     [_backGroundView addSubview:_boxView];
+    
+    CGSize size = self.view.bounds.size;
+    CGRect cropRect = _boxView.frame;
+    captureMetadataOutput.rectOfInterest = CGRectMake(cropRect.origin.y/size.height,
+                                                      cropRect.origin.x/size.width,
+                                                      cropRect.size.height/size.height,
+                                                      cropRect.size.width/size.width);
   
     //10.1.1 四角
     for (int i = 0; i< 8; i++)

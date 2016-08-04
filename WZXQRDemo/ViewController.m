@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "WZXQRImageView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+//    WZXQRImageView * imageView = [[WZXQRImageView alloc] init];
+//    imageView.bounds = CGRectMake(0, 0, 300, 300);
+//    imageView.center = self.view.center;
+//    [self.view addSubview:imageView];
+//    [imageView setTitle:@"13" andImage:[UIImage]];
 }
 
 - (void)didReceiveMemoryWarning {

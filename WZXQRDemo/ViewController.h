@@ -6,8 +6,9 @@
 //  Copyright © 2016年 wzx. All rights reserved.
 //
 
-#import "WZXQRViewController.h"
+#import <UIKit/UIKit.h>
 
+#import "WZXQRViewController.h"
 @interface ViewController : WZXQRViewController
 
 
